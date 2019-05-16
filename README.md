@@ -18,28 +18,32 @@ This project adds CLI to a frontend website that inteacts with JSON RESTful API 
 1. Open the command prompt (for Windows, click Start icon and type in 'cmd') and go to the project directory.eg. :
 
 `cd C:/CrazyPizzaCLI`
+
 2. Run the app:
 `node index.js`
 
 Optionally, one can set the environment as command line argument (with value of 'production' or 'staging'). The default is 'staging'.
 
 `node index.js production` (for Windows)
+
 `NODE_ENV=production node index.js` (for Linux)
 
-Optionally, one cat set DEBUG variable to print out messages in the console.
+Optionally, one can set DEBUG variable to print out messages in the console. (for Windows):
 
-`set DEBUG=* & node index.js` (for Windows)
+`set DEBUG=* & node index.js` // Print out all debug messages
 
-3. The app informs which ports are active.
-4. Open up a web browser and go to the address printed out in point 3: `localhost:3000` or `localhost:5000`. 
-Follow the Basic scenario below to learn how to navigate on the website.
-5. Push `Ctrl` + `C` in the console to stop the app.
+`set DEBUG=helpers & node index.js` // Print out debug messages coming from debug module
 
-### Basic scenario:
+3. The app informs which ports are active and that the Console is active.
+4. In the console, after prompt sign `>` enter a command. Find the available commands in a table below.
+5. Enter `exit` to stop the app.
+
+## Use CLI in Chrome web browser
 
 1. Start the application as described in ##Set up##.
-2. In web browser in Chrome click F12 to show up console or work in the console.
-3. 
+2. Open up Chrome and and go to the address that the app printed out: `localhost:3000` or `localhost:5000`. Follow this [Basic usage scenario]!(https://github.com/marta-krzyk-dev/CrazyPizzaGUI/wiki#basic-usage-scenario) to learn how to navigate on the website.
+2. With the website opened, click F12 to show up console.
+3. After prompt sign `>` enter a command. Find the available commands in a table below.
 
 ### CLI Commands
 
