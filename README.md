@@ -16,7 +16,8 @@ This project adds CLI to a frontend website that inteacts with JSON RESTful API 
 ### Set up
 0. Download the project.
 1. Open the command prompt (for Windows, click Start icon and type in 'cmd') and go to the project directory.eg. :
-`cd C:/CrazyPizzaGUI`
+
+`cd C:/CrazyPizzaCLI`
 2. Run the app:
 `node index.js`
 
