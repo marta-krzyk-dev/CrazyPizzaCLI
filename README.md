@@ -15,11 +15,12 @@ This project adds CLI to a frontend website that inteacts with JSON RESTful API 
 
 ### Set up
 0. Download the project.
-1. Open the command prompt (for Windows, click Start icon and type in 'cmd') and go to the project directory.eg. :
+1. Open the command prompt (for Windows, click Start icon and type in `cmd`) and go to the project directory.eg. :
 
 `cd C:/CrazyPizzaCLI`
 
 2. Run the app:
+
 `node index.js`
 
 Optionally, one can set the environment as command line argument (with value of 'production' or 'staging'). The default is 'staging'.
@@ -38,7 +39,7 @@ Optionally, one can set DEBUG variable to print out messages in the console. (fo
 4. In the console, after prompt sign `>` enter a command. Find the available commands in a table below.
 5. Enter `exit` to stop the app.
 
-## Use CLI in Chrome web browser
+#### Use CLI in Chrome web browser
 
 1. Start the application as described in ##Set up##.
 2. Open up Chrome and and go to the address that the app printed out: `localhost:3000` or `localhost:5000`. Follow this [Basic usage scenario](https://github.com/marta-krzyk-dev/CrazyPizzaGUI/wiki#basic-usage-scenario) to learn how to navigate on the website.
