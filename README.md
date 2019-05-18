@@ -8,7 +8,7 @@ This project adds CLI to a frontend website that inteacts with JSON RESTful API 
 - [x] View all the current menu items
 - [ ] View all the recent orders in the system (orders placed in the last 24 hours)
 - [x] Lookup the details of a specific order by order ID
-- [ ] View all the users who have signed up in the last 24 hours
+- [x] View all the users who have signed up in the last 24 hours
 - [x] Lookup the details of a specific user by email address
 
 ## Manual
