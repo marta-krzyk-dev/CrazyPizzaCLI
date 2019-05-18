@@ -5,11 +5,11 @@ This project adds CLI to a frontend website that inteacts with JSON RESTful API 
 ![Logo](https://github.com/marta-krzyk-dev/CrazyPizzaAPI/blob/master/logo_small.jpg?raw=true)
 
 ## Features
-- [ ] View all the current menu items
+- [x] View all the current menu items
 - [ ] View all the recent orders in the system (orders placed in the last 24 hours)
-- [ ] Lookup the details of a specific order by order ID
-- [ ] View all the users who have signed up in the last 24 hours
-- [ ] Lookup the details of a specific user by email address
+- [x] Lookup the details of a specific order by order ID
+- [x] View all the users who have signed up in the last 24 hours
+- [x] Lookup the details of a specific user by email address
 
 ## Manual
 
