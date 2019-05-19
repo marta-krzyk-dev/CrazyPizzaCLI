@@ -1,7 +1,6 @@
 .data/*
 .logs/*
-*/config.js
+*/config_real.js
 .vs/*
 Video/*
 design/*
-*/*config*.js
