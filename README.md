@@ -44,7 +44,7 @@ Optionally, one can set DEBUG variable to print out messages in the console. (fo
 1. Start the application as described in **Set up**
 2. Open up Chrome and and go to the address that the app printed out: `localhost:3000` or `localhost:5000`. Follow this [Basic usage scenario](https://github.com/marta-krzyk-dev/CrazyPizzaGUI/wiki#basic-usage-scenario) to learn how to navigate on the website.
 2. With the website opened, click F12 to show up console.
-3. After prompt sign `>` enter a command. Find the available commands in the table below.
+3. Enter a command. Find the available commands in the table below.
 
 ### CLI Commands
 
