@@ -6,7 +6,7 @@ This project adds CLI to a frontend website that inteacts with JSON RESTful API 
 
 ## Features
 - [x] View all the current menu items
-- [ ] View all the recent orders in the system (orders placed in the last 24 hours)
+- [x] View all the recent orders in the system (orders placed in the last 24 hours)
 - [x] Lookup the details of a specific order by order ID
 - [x] View all the users who have signed up in the last 24 hours
 - [x] Lookup the details of a specific user by email address
@@ -33,18 +33,18 @@ Optionally, one can set DEBUG variable to print out messages in the console. (fo
 
 `set DEBUG=* & node index.js` // Print out all debug messages
 
-`set DEBUG=helpers & node index.js` // Print out debug messages coming from debug module
+`set DEBUG=cli & node index.js` // Print out debug messages coming from debug module
 
 3. The app informs which ports are active and that the Console is active.
-4. In the console, after prompt sign `>` enter a command. Find the available commands in a table below.
+4. In the console, enter a command. Find the available commands in a table below.
 5. Enter `exit` to stop the app.
 
 #### Use CLI in Chrome web browser
 
-1. Start the application as described in ##Set up##.
+1. Start the application as described in **Set up**
 2. Open up Chrome and and go to the address that the app printed out: `localhost:3000` or `localhost:5000`. Follow this [Basic usage scenario](https://github.com/marta-krzyk-dev/CrazyPizzaGUI/wiki#basic-usage-scenario) to learn how to navigate on the website.
 2. With the website opened, click F12 to show up console.
-3. After prompt sign `>` enter a command. Find the available commands in a table below.
+3. After prompt sign `>` enter a command. Find the available commands in the table below.
 
 ### CLI Commands
 
