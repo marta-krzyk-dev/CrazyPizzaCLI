@@ -52,7 +52,7 @@ Optionally, one can set DEBUG variable to print out messages in the console. (fo
 |-------|-----------|
 |`exit`| Kill the CLI (and the rest of the application) |
 |`man`| Show this help page |
-|`help`| Alias of the "man" command |
+|`help`| Alias of the `man` command |
 |`menu`| View all the current menu items |
 |`list orders`| Show all the recent orders in the system (orders placed in the last 24 hours) |
 |`more order info --{orderId}`| Show details of a specified order |
