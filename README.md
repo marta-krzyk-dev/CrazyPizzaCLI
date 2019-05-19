@@ -59,3 +59,16 @@ Optionally, one can set DEBUG variable to print out messages in the console. (fo
 |`list users`| Show a list of all the users who have signed up in the last 24 hours |
 |`more user info --{userEmail}`| Show detailed info of a specified user |
 
+### Printscreens
+
+![man](https://github.com/marta-krzyk-dev/CrazyPizzaCLI/blob/master/PrintScreens/man_help.png?raw=true)
+
+![menu](https://github.com/marta-krzyk-dev/CrazyPizzaCLI/blob/master/PrintScreens/menu.png?raw=true)
+
+![list_users](https://github.com/marta-krzyk-dev/CrazyPizzaCLI/blob/master/PrintScreens/list_users.png?raw=true)
+
+![more_user_info](https://github.com/marta-krzyk-dev/CrazyPizzaCLI/blob/master/PrintScreens/more_user_info.png?raw=true)
+
+![list_orders](https://github.com/marta-krzyk-dev/CrazyPizzaCLI/blob/master/PrintScreens/list_orders.png?raw=true)
+
+![more_order_info](https://github.com/marta-krzyk-dev/CrazyPizzaCLI/blob/master/PrintScreens/more_order_info.png?raw=true)
