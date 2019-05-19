@@ -44,7 +44,7 @@ Optionally, one can set DEBUG variable to print out messages in the console. (fo
 1. Start the application as described in **Set up**
 2. Open up Chrome and and go to the address that the app printed out: `localhost:3000` or `localhost:5000`. Follow this [Basic usage scenario](https://github.com/marta-krzyk-dev/CrazyPizzaGUI/wiki#basic-usage-scenario) to learn how to navigate on the website.
 2. With the website opened, click F12 to show up console.
-3. After prompt sign `>` enter a command. Find the available commands in the table below.
+3. Enter a command. Find the available commands in the table below.
 
 ### CLI Commands
 
@@ -52,10 +52,23 @@ Optionally, one can set DEBUG variable to print out messages in the console. (fo
 |-------|-----------|
 |`exit`| Kill the CLI (and the rest of the application) |
 |`man`| Show this help page |
-|`help`| Alias of the "man" command |
+|`help`| Alias of the `man` command |
 |`menu`| View all the current menu items |
 |`list orders`| Show all the recent orders in the system (orders placed in the last 24 hours) |
 |`more order info --{orderId}`| Show details of a specified order |
 |`list users`| Show a list of all the users who have signed up in the last 24 hours |
 |`more user info --{userEmail}`| Show detailed info of a specified user |
 
+### Printscreens
+
+![man](https://github.com/marta-krzyk-dev/CrazyPizzaCLI/blob/master/PrintScreens/man_help.png?raw=true)
+
+![menu](https://github.com/marta-krzyk-dev/CrazyPizzaCLI/blob/master/PrintScreens/menu.png?raw=true)
+
+![list_users](https://github.com/marta-krzyk-dev/CrazyPizzaCLI/blob/master/PrintScreens/list_users.png?raw=true)
+
+![more_user_info](https://github.com/marta-krzyk-dev/CrazyPizzaCLI/blob/master/PrintScreens/more_user_info.png?raw=true)
+
+![list_orders](https://github.com/marta-krzyk-dev/CrazyPizzaCLI/blob/master/PrintScreens/list_orders.png?raw=true)
+
+![more_order_info](https://github.com/marta-krzyk-dev/CrazyPizzaCLI/blob/master/PrintScreens/more_order_info.png?raw=true)
