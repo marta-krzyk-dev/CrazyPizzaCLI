@@ -31,9 +31,9 @@ Optionally, one can set the environment as command line argument (with value of 
 
 Optionally, one can set DEBUG variable to print out messages in the console. (for Windows):
 
-`set DEBUG=* & node index.js` // Print out all debug messages
+`set DEBUG=* & node index.js // Print out all debug messages`
 
-`set DEBUG=cli & node index.js` // Print out debug messages coming from debug module
+`set DEBUG=cli & node index.js // Print out debug messages coming from cli module`
 
 3. The app informs which ports are active and that the Console is active.
 4. In the console, enter a command. Find the available commands in a table below.
