@@ -46,7 +46,7 @@ Optionally, one can set DEBUG variable to print out messages in the console. (fo
 2. With the website opened, click F12 to show up console.
 3. Enter a command. Find the available commands in the table below.
 
-### CLI Commands
+## CLI Commands
 
 |Command|Description|
 |-------|-----------|
@@ -59,7 +59,7 @@ Optionally, one can set DEBUG variable to print out messages in the console. (fo
 |`list users`| Show a list of all the users who have signed up in the last 24 hours |
 |`more user info --{userEmail}`| Show detailed info of a specified user |
 
-### Printscreens
+## Printscreens
 
 ![man](https://github.com/marta-krzyk-dev/CrazyPizzaCLI/blob/master/PrintScreens/man_help.png?raw=true)
 
