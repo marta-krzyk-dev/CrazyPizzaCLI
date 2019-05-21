@@ -38,4 +38,3 @@ Optionally, one can set DEBUG variable to print out messages in the console. (fo
 5. Enter `exit` to stop the app.
 
 ## Printscreens
-
