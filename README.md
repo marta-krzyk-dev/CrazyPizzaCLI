@@ -4,10 +4,12 @@ This project adds CLI to a frontend website that inteacts with JSON RESTful API 
 
 ![Logo](https://github.com/marta-krzyk-dev/CrazyPizzaAPI/blob/master/logo_small.jpg?raw=true)
 
-## Requirements
-- [] Create a new empty repository with a /test folder, and an /app folder.
-- [] Inside of the app folder, create a library (lib.js) and fill it with simple functions. These can serve any purpose you wish, such as generating a random number, or checking whether or not a string is a palindrome. Really, any kind of functions will do.
-- [] Inside the /test folder, create a simple test runner, and then write tests for the functions in your lib.js file. You should try to test that they return (or callback) the correct value when passed valid parameters, and that they return a predictable value (and don't crash) when passed invalid parameters.
+## Features
+- [x] View all the current menu items
+- [x] View all the recent orders in the system (orders placed in the last 24 hours)
+- [x] Lookup the details of a specific order by order ID
+- [x] View all the users who have signed up in the last 24 hours
+- [x] Lookup the details of a specific user by email address
 
 ## Manual
 
@@ -29,12 +31,44 @@ Optionally, one can set the environment as command line argument (with value of 
 
 Optionally, one can set DEBUG variable to print out messages in the console. (for Windows):
 
-`set DEBUG=* & node index.js // Print out all debug messages`
+`set DEBUG=* & node index.js` // Print out all debug messages
 
-`set DEBUG=cli & node index.js // Print out debug messages coming from cli module`
+`set DEBUG=cli & node index.js` // Print out debug messages coming from debug module
 
 3. The app informs which ports are active and that the Console is active.
 4. In the console, enter a command. Find the available commands in a table below.
 5. Enter `exit` to stop the app.
 
-## Printscreens
+#### Use CLI in Chrome web browser
+
+1. Start the application as described in **Set up**
+2. Open up Chrome and and go to the address that the app printed out: `localhost:3000` or `localhost:5000`. Follow this [Basic usage scenario](https://github.com/marta-krzyk-dev/CrazyPizzaGUI/wiki#basic-usage-scenario) to learn how to navigate on the website.
+2. With the website opened, click F12 to show up console.
+3. Enter a command. Find the available commands in the table below.
+
+### CLI Commands
+
+|Command|Description|
+|-------|-----------|
+|`exit`| Kill the CLI (and the rest of the application) |
+|`man`| Show this help page |
+|`help`| Alias of the "man" command |
+|`menu`| View all the current menu items |
+|`list orders`| Show all the recent orders in the system (orders placed in the last 24 hours) |
+|`more order info --{orderId}`| Show details of a specified order |
+|`list users`| Show a list of all the users who have signed up in the last 24 hours |
+|`more user info --{userEmail}`| Show detailed info of a specified user |
+
+### Printscreens
+
+![man](https://github.com/marta-krzyk-dev/CrazyPizzaCLI/blob/master/PrintScreens/man_help.png?raw=true)
+
+![menu](https://github.com/marta-krzyk-dev/CrazyPizzaCLI/blob/master/PrintScreens/menu.png?raw=true)
+
+![list_users](https://github.com/marta-krzyk-dev/CrazyPizzaCLI/blob/master/PrintScreens/list_users.png?raw=true)
+
+![more_user_info](https://github.com/marta-krzyk-dev/CrazyPizzaCLI/blob/master/PrintScreens/more_user_info.png?raw=true)
+
+![list_orders](https://github.com/marta-krzyk-dev/CrazyPizzaCLI/blob/master/PrintScreens/list_orders.png?raw=true)
+
+![more_order_info](https://github.com/marta-krzyk-dev/CrazyPizzaCLI/blob/master/PrintScreens/more_order_info.png?raw=true)
