@@ -11,6 +11,14 @@ This project adds CLI to a frontend website that inteacts with JSON RESTful API 
 - [x] View all the users who have signed up in the last 24 hours
 - [x] Lookup the details of a specific user by email address
 
+## Screencast
+
+[See the app in action and watch the code being explained line by line](https://www.youtube.com/watch?v=4P79amJ9D1o)
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=4P79amJ9D1o
+" target="_blank"><img src="http://img.youtube.com/vi/4P79amJ9D1o/0.jpg" 
+alt="Pirple Node JS Master Class Homework Assignment #4" width="300" height="200" border="10" /></a>
+
 ## Manual
 
 ### Set up
